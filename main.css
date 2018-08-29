@@ -1,0 +1,39 @@
+img { 
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    align-self: center;
+}
+
+.row1, .row3 {
+    display: flex;
+    flex-flow: row;
+    border: solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+.row2 {
+    display: flex;
+    flex-flow: row-reverse;
+    border: solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+main {
+    border: solid;
+    border-width: 2px;
+    padding: 45px;
+}
+
